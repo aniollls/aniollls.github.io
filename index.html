@@ -8,6 +8,7 @@
 <meta property="og:title" content="Aniol Llorente-Saguer">
 <meta property="og:description" content="Professor of Economics, Queen Mary University of London. Theory and experiments on how institutions shape collective decisions.">
 <meta property="og:type" content="website">
+<base target="_blank">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -131,14 +132,14 @@
     <a href="#working-papers">Working papers</a>
     <a href="#publications">Publications</a>
     <a href="https://bookings.cloud.microsoft/bookwithme/user/51d93732eb914a49bbf1506635ad08ad@qmul.ac.uk/meetingtype/373o2yRy8EazwLPVE155tg2?anonymous&amp;ismsaljsauthenabled">Book office hours</a>
-    <!-- TODO: paste your Google Scholar profile URL -->
-    <a href="https://scholar.google.com/">Google Scholar</a>
+    <a href="https://scholar.google.com/citations?user=U6L_ml0AAAAJ&amp;hl=en">Google Scholar</a>
   </nav>
 
   <p class="contact">
     <a href="mailto:a.llorente-saguer@qmul.ac.uk">a.llorente-saguer@qmul.ac.uk</a><br>
     +44 (0)20 7882 8420<br>
-    Room GC513, School of Economics and Finance<br>
+    Room GC513<br>
+    School of Economics and Finance<br>
     Mile End Road, London E1 4NS
   </p>
 </aside>
@@ -312,6 +313,9 @@
 </main>
 
 <script>
+  // In-page links (Working papers, Publications, ...) stay in this tab; everything else opens a new tab
+  document.querySelectorAll('a[href^="#"]').forEach(function (a) { a.target = '_self'; });
+
   // Abstract toggles
   document.querySelectorAll('.toggle').forEach(function (btn) {
     btn.addEventListener('click', function () {
