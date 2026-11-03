@@ -12,7 +12,6 @@ photo.jpg             optional — see the TODO comment in index.html
 papers/
   ballot-richness.pdf                 (included)
   forward-backward-disclosure.pdf     (included)
-  beyond-value.pdf                    (still to add — Management Science paper)
 build/                optional — only needed if you want to regenerate the page (see below)
 ```
 

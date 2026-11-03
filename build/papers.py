@@ -26,7 +26,7 @@ PUBLICATIONS = [
          title="Beyond Value: On the Role of Symmetry in Demand for Information",
          authors="with Santiago Oliveros and Ro'i Zultan",
          venue="Management Science", cite="forthcoming",
-         pdf="papers/beyond-value.pdf"),
+         pdf="https://drive.google.com/file/d/1Urd0xmH5iaDj6FxjORbefEVauzderDS8/view"),
     dict(key="voting-rights",
          title="Voting Rights, Agenda Control and Information Aggregation",
          authors="with Laurent Bouton, Antonin Macé and Dimitrios Xefteris",
